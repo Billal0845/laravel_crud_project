@@ -1,0 +1,1 @@
+If you are beginner and you want to know the basic working flow of Laravel. You can complete this project and then you can satrt learning a laravel course. Learning this way is really effective and easy to relate.

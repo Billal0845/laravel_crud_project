@@ -1,0 +1,19 @@
+1. Create a database
+2. go to env file and save database name as: mysql and uncomment the other codes below it and give DB_DATABASE= name of the database you have created;
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=crud
+DB_USERNAME=root
+DB_PASSWORD=
+
+3. goto terminal and write php artisan migrate
+4. understand mvc pattern:  view-->controller-->model-->database
+                              |--> Routing -->controller-->model-->database
+
+5. create a model now: php artisan make:model Post -mc    --> it will create a model Post.php, a table postTable.php in the database and a postController.php file 
+
+6. now goto database\migrations\2024_12_04_121218_create_posts_table.php and write your field of table and run php artisan migrate:fresh
+
+7. add talwind css cdn to the welcome.blade.php and test it works or not
